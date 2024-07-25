@@ -12,3 +12,228 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* styles */
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+/*====== TASK - 1 ====== */
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 392px;
+  margin: 0 auto;
+  padding: 24px;
+  list-style-type: none;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.item h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+#categories .item {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item li {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  line-height: 1.5;
+}
+
+/* ======= TASK - 1 - END ======= */
+
+/* ======= TASK - 2 ======= */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:  24px;
+  max-width: 1440px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.gallery img {
+  max-width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* ====== TASK - 2 - END ========*/
+
+/* ====== TASK - 3 - END ========*/
+
+#name-input {
+  display: block;
+  min-width: 360px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+span h1 {
+font-size: 24px;
+}
+
+/* ====== TASK - 3 - END =====*/
+
+/* ====== TASK - 4 =======*/
+
+.login-form {
+  max-width: 408px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  line-height: 1.5;
+  border: 1px solid #808080;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-form button {
+  display: block;
+  margin-top: 16px;
+  min-width: 86px;
+  padding: 8px 0;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login-form button:hover {
+  background-color: #6c8cff;
+}
+
+/* ======= TASK - 4 - END ========*/
+
+/* ======= TASK - 5 ========*/
+
+.widget {
+  max-width: 392px;
+  margin: 0 auto;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.widget button {
+  min-width: 148px;
+  height: 40px;
+  padding-block: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.widget button:hover {
+  background-color: #6c8cff;
+}
+
+/* ====== TASK - 5 - END =====*/
+
+/* ====== TASK - 6 ========*/
+
+#controls {
+  padding: 32px;
+  background-color: #F6F6FE;
+  text-align: center;
+}
+
+#controls input[type="number"] {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+#controls button {
+  width: 120px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  color: #fff;
+}
+
+#controls button[data-create] {
+  background-color: #4E75FF;
+}
+
+#controls button[data-create]:hover {
+  background-color: #6C8CFF;
+}
+
+#controls button[data-destroy] {
+  background-color: #FF4E4E;
+}
+
+#controls button[data-destroy]:hover {
+  background-color: #FF7070;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 44px;
+  padding: 32px;
+  background-color: #F6F6FE;
+  text-align: center;
+}
+
+/* ======= TASK - 6 - END =======*/
