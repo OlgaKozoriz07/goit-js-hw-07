@@ -25,13 +25,14 @@ const images = [
   }
 ];
 
-const gallery = document.querySelector('ul.gallery');
+const list = document.querySelector('.gallery');
 
-images.forEach(image => {
-    const listItemHTML = `
-        <li>
-            <img src="${image.url}" alt="${image.alt}">
-        </li>
-    `;
-    gallery.insertAdjacentHTML('beforeend', listItemHTML);
-});
+const listItem = images
+  .map(image => {
+    return `<li>
+    <img src="${image.url}" alt="${image.alt}">
+    </li>`;
+  })
+  .join('');
+
+list.insertAdjacentHTML('afterbegin', listItem);
